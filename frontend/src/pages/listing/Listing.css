@@ -1,0 +1,30 @@
+.breadcrumbs ul {
+    width: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+    vertical-align: middle;
+}
+.breadcrumbs {
+    font-family: "Roboto", sans-serif;
+    padding: 10px 49px;
+    width: fit-content;
+}
+.breadcrumbs ul li a{
+    text-decoration: none;
+    color: black;
+}
+.breadcrumbs ul li a:hover{
+    color: aqua;
+    
+}
+
+.breadcrumbs ui li:last-child a{
+    font-weight: bold;
+}
+.breadcrumbs ui li.arrow{
+    width: 18px;
+}

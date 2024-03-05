@@ -1,0 +1,6 @@
+./src/assets/js/bootstrap.bundle.min.js
+{
+  "rules": {
+    "eslint-disable-next-line": "off"
+  }
+}
